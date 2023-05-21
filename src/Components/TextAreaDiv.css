@@ -1,0 +1,86 @@
+.textarea-div{
+    margin-top: 1rem;
+    height: 1000px;
+    /* border: 2px solid black; */
+    /* margin-top: 0; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.textarea-div div{
+    width: 70%;
+    /* gap: 1rem; */
+    display: flex;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: center;
+    
+}
+.textarea-div div h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: blue;
+    padding: 0.01rem 0rem;
+}
+.textarea-div div textarea{
+    height: 30vh;
+    width: 60vw;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 128);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.textarea-div div p{
+    /* height: 30vh; */
+    /* width: 60vw; */
+    /* height: 5vh; */
+    text-align: center;
+    font-size: 1.5rem;
+    /* background-color: blue; */
+    color: rgb(255, 255, 255);
+    /* border: 2px solid blue; */
+}
+.textarea-div div textarea:focus{
+    outline-color:blue;
+    /* border: 2px solid yellow; */
+    box-shadow: 5px 5px 20px 3px rgba(0, 0, 255, 0.705);
+    background-color: rgba(194, 255, 255, 0.493);
+    
+}
+.textarea-div .textarea-button{
+    /* width: 100vw; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+    /* border: 2px solid red; */
+    /* flex-direction: column; */
+}
+.textarea-button button{
+    width: 7rem;
+    background-color: blue;
+    outline: none;
+    padding: 0.4rem 0.2rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid blue;
+    transition: all;
+}
+.textarea-button button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 255, 0.486);
+}
+
+.textarea-div div:last-of-type{
+    height: 7vh;
+    /* border: 2px solid red; */
+    width: 60vw;
+    background-image: linear-gradient(to bottom,blue,rgb(88, 88, 231));
+    border-radius: 5px;
+}
